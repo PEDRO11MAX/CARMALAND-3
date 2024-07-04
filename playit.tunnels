@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "will-agriculture.gl.joinmc.link",
+          "assigned_srv": "will-agriculture.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "79af3b1d-9f9b-4ff2-b7df-35d2442edc89",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 57080,
+          "port_start": 57079,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-07-03T09:13:28.064210Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "ca633d5c-9063-42d0-a33d-92e778544d5e",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "1294fdf5-39d0-4fda-8374-f0d1fa3dfe7b",
+          "agent_name": "CARMALAND 3",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
